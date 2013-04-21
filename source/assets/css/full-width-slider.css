@@ -1,0 +1,234 @@
+* html .full-width-slider.flexslider .slides {
+    height: 1%;
+}
+.full-width-slider-wrapper .flex-viewport {
+    max-height: 2000px;
+    transition: all 1s ease 0s;
+}
+.loading .full-width-slider-wrapper .flex-viewport {
+    max-height: 600px;
+}
+.full-width-slider.flexslider .slides > li {
+    display: none;
+    position: relative;
+}
+.full-width-slider.flexslider .slides img {
+    border-radius: 0 0 0 0;
+    display: block;
+}
+.full-width-slider.flexslider {
+    clear: both;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    z-index: 2;
+}
+.full-width-slider.flexslider .slides {
+}
+.full-width-slider-wrapper {
+    clear: both;
+    margin: -40px 0 10px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.bg-slider #page {
+    background-image: none !important;
+}
+.full-width-slider.flexslider span {
+    display: block;
+    height: 1px;
+    position: relative;
+    width: 100%;
+}
+.full-width-slider.flexslider span:before {
+    background: url("../images/bgfade-large.png") repeat-x scroll 0 0 transparent;
+    content: "";
+    height: 300px;
+    left: 0;
+    position: absolute;
+    top: -300px;
+    width: 100%;
+    z-index: 2;
+}
+.full-width-slider.flexslider .caption {
+    background: url("../images/80pwhite.png") repeat scroll 0 0 transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05) inset, 0 -2px 5px rgba(0, 0, 0, 0.05) inset;
+    left: 10%;
+    margin: 0 auto;
+    padding: 2%;
+    position: absolute;
+    top: 7%;
+    width: 30%;
+    z-index: 3;
+}
+.full-width-slider.flexslider .caption h2 {
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+.full-width-slider.flexslider .caption p {
+}
+.full-width-slider.flexslider .flex-direction-nav {
+}
+.full-width-slider.flexslider .flex-direction-nav .flex-disabled {
+    cursor: default;
+    display: none !important;
+}
+.full-width-slider.flexslider .flex-direction-nav .flex-next, .full-width-slider.flexslider .flex-direction-nav .flex-prev {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 100px 100px 100px 100px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+    opacity: 0;
+    position: absolute;
+    right: -50px;
+    text-align: center;
+    text-decoration: none;
+    top: 150px;
+    transition: all 1s ease 0s;
+    width: 50px;
+    z-index: 200;
+}
+.full-width-slider.flexslider .flex-direction-nav .flex-prev {
+    left: -50px;
+    right: auto;
+}
+.full-width-slider.flexslider .flex-direction-nav .flex-next i {
+    left: 2px;
+    position: relative;
+}
+.full-width-slider.flexslider .flex-direction-nav .flex-prev i {
+    left: -2px;
+    position: relative;
+}
+.full-width-slider.flexslider .flex-prev:hover, .full-width-slider.flexslider .flex-next:hover {
+    opacity: 0.5;
+}
+.full-width-slider.flexslider:hover .flex-next {
+    opacity: 0.8;
+    right: 10px;
+}
+.full-width-slider.flexslider:hover .flex-prev {
+    left: 10px;
+    opacity: 0.8;
+}
+.full-width-slider.flexslider:hover .flex-next:hover, .full-width-slider.flexslider:hover .flex-prev:hover {
+    opacity: 1;
+}
+.lt-ie8 .full-width-slider.flexslider .flex-direction-nav .flex-next i, .lt-ie8 .full-width-slider.flexslider .flex-direction-nav .flex-prev i {
+    position: relative;
+    top: 10px;
+}
+.full-width-slider.flexslider .flex-control-nav {
+    bottom: -20px;
+    height: 50px;
+    left: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+}
+.full-width-slider.flexslider .flex-control-nav li {
+    display: inline-block;
+    margin: 20px 0 10px 5px;
+}
+.full-width-slider.flexslider .flex-control-paging li a {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    text-indent: 9999px;
+    width: 10px;
+}
+.full-width-slider.flexslider .flex-control-paging li a:hover {
+    background: none repeat scroll 0 0 #000000;
+}
+.full-width-slider.flexslider .flex-control-paging li a.flex-active {
+    background: none repeat scroll 0 0 #000000;
+    cursor: default;
+}
+.full-width-slider.flexslider .caption {
+    left: 5%;
+    margin: 0 auto;
+    padding: 2%;
+    top: 5%;
+    width: 40%;
+}
+.full-width-slider.flexslider span:before {
+    background: url("../images/bgfade-small.png") repeat-x scroll 0 0 transparent;
+    height: 150px;
+    top: -150px;
+}
+.full-width-slider.flexslider .caption {
+    background: none repeat scroll 0 0 transparent;
+    box-shadow: none;
+    clear: both;
+    left: auto;
+    margin: 0 auto;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+    top: auto;
+    width: 96%;
+}
+.full-width-slider.flexslider span:before {
+    background: url("../images/bgfade-xsmall.png") repeat-x scroll 0 0 transparent;
+    height: 75px;
+    top: -75px;
+}
+.full-width-slider.flexslider .caption h2 {
+    font-size: 160%;
+    font-weight: 400;
+}
+.full-width-slider.flexslider .flex-direction-nav .flex-next, .full-width-slider.flexslider .flex-direction-nav .flex-prev {
+    border-radius: 60px 60px 60px 60px;
+    display: block;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    top: 75px;
+    width: 30px;
+}
+.full-width-slider.flexslider span:before {
+    background: url("../images/bgfade-xxsmall.png") repeat-x scroll 0 0 transparent;
+    height: 50px;
+    top: -50px;
+}
+.full-width-slider.flexslider .caption h2 {
+    background: none repeat scroll 0 0 transparent;
+    font-size: 140%;
+    font-weight: 400;
+}
+.full-width-slider.flexslider .caption h2 span {
+    background: none repeat scroll 0 0 transparent;
+}
+.full-width-slider.flexslider .caption p {
+    font-size: 90%;
+    padding: 0 3%;
+}
+.full-width-slider-wrapper {
+    margin: -20px 0 0;
+}
+.full-width-slider.flexslider .flex-direction-nav .flex-next, .full-width-slider.flexslider .flex-direction-nav .flex-prev {
+    border-radius: 40px 40px 40px 40px;
+    display: block;
+    font-size: 15px;
+    height: 20px;
+    line-height: 20px;
+    top: 10px;
+    width: 20px;
+}
+.full-width-slider.flexslider span:before {
+    display: none;
+}
+.full-width-slider.flexslider .caption {
+    padding-top: 10px;
+}
