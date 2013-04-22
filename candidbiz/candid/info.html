@@ -1,0 +1,1068 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" dir="ltr" lang="en"><!--<![endif]-->
+<head>
+		<title>Information | Corporate-Elegance Responsive Retina Ready Portfolio Business</title>
+		
+		<!-- Meta Data ================ -->
+		<meta charset="UTF-8"/>
+		<meta content="Fill this in with your information" name="description"/>
+		
+		<!--- highly suggested that you un-comment this on a live site 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		-->
+
+		<meta name="viewport" content="width=device-width">
+		<meta content="yes" name="apple-mobile-web-app-capable"/>
+		
+		<!-- CSS ================ -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+		<link href="assets/css/theme.reset.min.css" rel="stylesheet" type="text/css"/>
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+
+		<!-- Style Switcher DEMO only ================ -->
+		<link href="assets/css/switcher.css" rel="stylesheet" media="screen" type="text/css"/>
+		
+		<link rel="stylesheet" type="text/css" media="print" href="assets/css/print.css" />
+
+		<!-- Icons ================ put your icons and favicons below -->
+		<!--http://mathiasbynens.be/notes/touch-icons-->
+
+		<!-- Open Graph for facebook http://graph.facebook.com/[UserName] replace [UserName] with yours and get your fb:admis content information where the XXXX goes.
+		================================================== -->
+
+		<meta content="" property="og:title"/>
+		<meta content="" property="og:type"/>
+		<meta content="" property="og:url"/>
+		<meta content="" property="og:image"/>
+		<meta content="" property="og:site_name"/>
+		<meta content="XXXXX" property="fb:admins"/>
+		<meta content="en_us" property="og:locale"/>
+		<meta content=" " property="og:description"/>
+		
+		<!-- JS JQuery in the head you can use ajax if you want ================ -->
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="assets/js/jquery-1.9.1.min.js"><\/script>')</script>
+
+				<!-- DEMO only ================ -->
+		<link href="../demo/demo.css" rel="stylesheet" type="text/css"/>
+		<link href="../demo/jquery.snippet.min.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="../demo/jquery.snippet.min.js"></script>
+		
+		<!-- Add to HEAD after style sheet http://modernizr.com/docs/#installing  ================ -->
+		<script src="assets/js/modernizr.custom.js?v=2.6.2"></script>
+
+		<!-- Style Switcher  ================ -->
+		<script src="assets/js/switcheroo.js"></script>
+</head>
+<body>
+ 
+<!--[if lt IE 7]>
+<p class="chromeframe">Your browser is over 12 years old. You are using an <strong>outdated</strong> browser. Please <a href="http://www.google.com/chrome/intl/en/landing_chrome.html">upgrade your browser</a>.</p>
+<![endif]--> 
+
+<!-- begin accesibility skip to nav skip content -->
+<ul class="visuallyhidden" id="top">
+		<li><a href="#nav" title="Skip to navigation" accesskey="n">Skip to navigation</a></li>
+		<li><a href="#page" title="Skip to content" accesskey="c">Skip to content</a></li>
+</ul>
+
+<!-- end /.visuallyhidden accesibility--> 
+
+<!-- begin .header-->
+<header class="header clearfix">
+ 
+
+<!-- mobile navigation trigger-->
+<h5 class="mobile_nav"><a href="javascript:void(0)">&nbsp;<span></span> </a> </h5>
+
+<!--******this uses the bootstrap navbar menus but with added support for submenus (they are dropping these in 3.0 and their support in 2X was crap).
+I modified the JS, added some script, and adjusted the css.
+I commented and separeated the html so you can apply it to your site/menu system easier. Note the additional classes for this theme.
+*******-->
+<div id="nav">
+		<!--accesibility-->
+		<div class="navbar secondary-menu">
+			<div class="container">
+
+				<div class="navbar-inner">
+
+						<div class="nav-collapse collapse">
+								<ul class="nav accordmobile pull-right"><!--accordmobile comes in when the browser is at 979px and below, it fixes bugs with bootstrap's toggles of multiple level dropdowns which they are dropping support for and they had lousy support in 2x-->
+										<li><a href="register.html">Register <i class="e-icon-pencil"></i></a></li>
+										
+										<!--begin .dropdown .parent -->
+										<li class="dropdown parent"> <a class="dropdown-toggle" href="#" data-toggle="dropdown">Sign In <i class="e-icon-login"></i></a>
+												<ul class="dropdown-menu signin"><!--begin .dropdown-menu .signin -->
+												
+														<li><!--begin list item / everything goes inside the list item-->
+																<form><!--begin form add your stuff -->
+																		<input type="text" placeholder="Email">
+																		<input type="password" placeholder="Password">
+																		<label class="checkbox">
+																				<input type="checkbox">
+																				Remember me </label>
+																		<button type="submit" class="btn custom-btn btn-primary">Sign in</button>
+																</form>
+														</li><!--end list item-->
+														
+														<li class="divider"></li><!--divider -->
+														
+														<li class="nav-header">Or Sign In with...</li><!--nav-header -->
+														
+														<li>
+																<div class="social clearfix">
+																		<a class="fc-webicon facebook large round" href="#" title="Facebook"></a>
+																		<a class="fc-webicon twitter large round" href="#" title="Twitter"></a>
+																		<a class="fc-webicon googleplus large round" href="#" title="Google"></a>
+																</div></li>
+																
+														<li class="divider"></li><!--divider -->
+														
+														<li><a href="forgot-password.html">Forgot Password</a></li>
+														
+												</ul><!--close .dropdown-menu .signin -->
+										</li><!--close .dropdown .parent -->
+										
+										<!--begin .dropdown .parent -->
+										<li class="dropdown parent"> <a class="dropdown-toggle" href="#" data-toggle="dropdown">Connect <i class="e-icon-comment"></i></a>
+												<ul class="dropdown-menu"> <!--begin .dropdown-menu -->
+												
+														<li class="visible-phone visible-tablet phonenumber"><a href="tel:+8135553333">813.555.3333</a></li>
+														<!-- show this number only on phones and tablets -->
+														
+														<li class="menu-text visible-desktop phonenumber">813.555.3333</li>
+														<!-- show this number only on desktop -->
+
+														<li><a href="mailto:contact@longdomaingoeshere.com">email: contact@longdomaingoeshere.com</a></li>
+														
+														<li class="divider"></li>
+														
+														<li class="nav-header">Sign Up For News!</li>
+														
+														<li>
+																<form action="yourscript.php" method="post">
+																		<div class="input-append custom-append">
+																				<input type="email" placeholder="Email Address" name="email" />
+																				<button class="btn btn-primary">Sign Up</button>
+																		</div>
+																		<!--close input-append-->
+																</form>
+														</li>
+																
+														<li class="divider"></li><!--divider -->
+														
+														<li class="nav-header">Follow Us!</li><!--nav-header -->
+														
+														<li>
+																<div class="social clearfix">
+																		<a class="fc-webicon rss round" href="#" title="RSS"></a>
+																		<a class="fc-webicon facebook round" href="#" title="Facebook"></a>
+																		<a class="fc-webicon twitter  round" href="#" title="Twitter"></a>
+																		<a class="fc-webicon skype round" href="#" title="Skype"></a>
+																		<a class="fc-webicon dribbble round" href="#" title="dribble"></a>
+																		<a class="fc-webicon linkedin round" href="#" title="Skype"></a>
+																		<a class="fc-webicon pinterest round" href="#" title="pinterest"></a>
+																</div><!-- close div .social-->
+														</li>
+													
+														
+												</ul>
+										</li><!--close .dropdown .parent -->
+
+
+										<!--begin .dropdown .parent -->
+										<li class="dropdown parent"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin <i class="e-icon-cog"></i></a>
+												<ul class="dropdown-menu">
+														<li class="current-user"> <a href="#"> <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/568222624/ILUSWEETC_normal.jpg" alt="Christina Arasmo">
+																<div class="name">
+																		<b class="fullname">User Name Goes Here</b><br>
+																		<small> Edit profile </small>
+																</div>
+																</a> </li>
+														<li class="divider"></li>
+														<li><a href="#">Link Here</a></li>
+														<li><a href="#">Line Here</a></li>
+														<li class="divider"></li>
+														<li><a href="#">Help</a></li>
+														<li class="divider"></li>
+														<li><a href="#">Settings</a></li>
+														<li> <a class="js-signout-button" href="#" data-nav="logout">Sign out</a>
+																<form class="dropdown-link-form signout-form" id="signout-form" action="/logout" method="POST">
+																		<input type="hidden" value="" name="" class="">
+																		<input type="hidden" name="" class="">
+																		<input type="hidden" name="">
+																</form></li>
+												</ul><!--close .dropdown-menu -->
+										</li><!--close .dropdown .parent -->
+												
+										<li class="divider-vertical"></li>
+										
+										<li class="search-wrapper">
+												<form action="someaction.php" method="post">
+														<div id="search-trigger">
+																<i class="e-icon-search"></i>
+														</div>
+														<input placeholder="search + enter" type="text">
+												</form>
+										</li>
+																</ul><!-- close nav accordmobile-->
+						</div>
+						<!--/.nav-collapse -->
+				</div>
+				<!-- /.navbar-inner -->
+				</div>
+				<!--/.container -->
+		</div>
+		<!-- /.navbar --> 
+		
+		<div class="container">
+				
+		<div class="navbar primary-menu">
+				<div class="navbar-inner">
+						<div class="nav-collapse collapse">
+								<ul class="nav accordmobile">
+										<li><a href="index.html">Home</a></li>
+										<li class="dropdown parent">
+										<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Features <i class="e-icon-down-open-mini"></i></a>
+										<ul class="dropdown-menu">
+												<li><a href="simple-header.html">Simple Header</a></li>
+												<li><a href="text-logo.html">Text Logo</a></li>
+												<li><a href="hero-unit.html">Hero Unit</a></li>
+												<li><a href="columns.html">Inner Columns</a></li>
+												<li><a href="equal-height-columns.html">Equal Height Columns</a></li>
+												<li><a href="toggles.html">Toggles</a></li>
+												<li><a href="figures-images.html">Figures and Images</a></li>
+												<li class="dropdown-submenu parent">
+												<a href="javascript:void(0)">Icons <i class="e-icon-right-open-mini"></i></a>
+												<ul class="dropdown-menu">
+														<li><a href="font-awesome-icons.html">Font Awesome</a></li>
+														<li><a href="entypo-icons.html">Entypo Icons</a></li>
+														<li><a href="social-icons.html">Social Icons</a></li>
+												</ul>
+												</li>
+												<li><a href="typography-elements.html">Typography & Elements</a></li>
+												<li><a href="misc-components.html">Bootstrap Components</a></li>
+												<li><a href="custom-bootstrap-form-elements.html">Custom Form Elements</a></li>
+
+										</ul></li>
+										<li class="dropdown parent">
+										<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Portfolio <i class="e-icon-down-open-mini"></i></a>
+										<ul class="dropdown-menu">
+												<li><a href="portfolio-masonry.html">Filtered Grid</a></li>
+												<li><a href="portfolio-single.html">Single Item (image slider)</a></li>
+												<li><a href="image-gallery.html">Simple Image Gallery</a></li>
+												<li><a href="image-gallery-2.html">Simple Image Gallery 2</a></li>
+										</ul></li>
+										<li class="dropdown parent">
+										<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog <i class="e-icon-down-open-mini"></i></a>
+										<ul class="dropdown-menu">
+												<li><a href="blog-traditional-summary.html">Traditional Summary</a></li>
+												<li><a href="blog.html">Masonry Summary</a></li>
+												<li><a href="blog-single.html">Single Post</a></li>
+										</ul></li>
+										<li class="dropdown parent">
+										<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="e-icon-down-open-mini"></i></a>
+										<ul class="dropdown-menu">
+												<li><a href="coming-soon.html">Coming Soon</a></li>
+												<li><a href="index.html">Animated Slider</a></li>
+												<li><a href="full-width-flex.html">Full Width FlexSlider</a></li>
+												<li><a href="variable-width-image-slider.html">Variable Width Image Slider</a></li>
+												<li><a href="feature-strip-slider.html">Feature Strip Image Slider</a></li>
+												<li><a href="generic-layout-1.html">Nested Row Fluid Example</a></li>
+												<li class="dropdown-submenu parent">
+												<a href="javascript:void(0)">Layouts <i class="e-icon-right-open-mini"></i></a>
+												<ul class="dropdown-menu pull-right">
+														<li><a href="two-columns-right-sidebar.html">Two Columns Right</a></li>
+														<li><a href="two-columns-left-sidebar.html">Two Columns Left </a></li>
+														<li><a href="holy-grail-three-columns.html">Holy Grail (3 Col)</a></li>
+														<li><a href="contemporary-three-columns.html">Contemporary (3 Col)</a></li>
+												</ul>
+												</li>
+												<li><a href="register.html">Register</a></li>
+												<li><a href="login.html">Login</a></li>
+												<li><a href="pricing-tables.html">Pricing Tables</a></li>
+												<li><a href="about.html">About</a></li>
+												<li><a href="testimonials.html">Testimonials</a></li>
+												<li><a href="faq.html">FAQ</a></li>
+										</ul></li>
+										<li><a href="contact.html">Contact</a></li>
+										<li class="active"><a href="info.html">Instructions</a></li>
+										
+								</ul>
+						</div>
+						<!--/.nav-collapse -->
+				</div>
+				<!-- /.navbar-inner -->
+		</div>
+		<!-- /.navbar --> 
+
+								<div id="logo">
+						<a href="index.html"></a>
+						<object class="logo-svg" data="assets/images/logo.svg" type="image/svg+xml">
+						</object>
+						<img src="assets/images/logo.png" alt="Corporate-Elegance Responsive Retina Ready Portfolio Business"/><!--.no-svg fallback-->
+				</div> 
+				<!-- end #logo --> 
+				<!-- ******* print stuff --><div class="print">Phone, name of company etc., for printing</div>
+				</div>
+		<!-- /.container --> 
+</div>
+<!--close #nav-->
+ 
+</header><!-- close /.header --> 
+
+<!-- begin #page - the container for everything but header -->
+<div id="page" class="clearfix">
+		<div class="page-header">
+<h1>Information</h1>
+</div>
+
+<div class="container main-content">
+								<!--begin main content-->
+								
+								<div class="slide-to-top all-closed" id="instructions">
+								<ul class="accordion-st-wrapper">
+
+<li class="st-content-wrapper"> <a class="trigger" href="#"><h4>Logo<i class="e-icon-up-open-big"></i></h4></a>
+												<div class="st-content">
+
+<h2>Text Logo Instructions</h2>
+
+<p>Example: <a href="text-logo.html">Text Logo</a></p>
+
+<p>Use the html for the logo in the <a href="text-logo.html">Text Logo</a> page. Enter your site name. Depending on your site's name, you'll need adjust the appropriate css in the base and in the media queries max-width 979 in the style.css file.</p>
+
+<h2>SVG Logo Instructions</h2>
+
+<p>This theme is retina ready. It uses an SVG image for the logo. It uses fonts to make the silhouetted icons. The colorful social icons are svg background images with png fall backs for legacy browsers.</p>
+
+<p>Logo maximum width is 405px IF you keep the links to the same amount of characters, pretty much. The max height is 65 px and you will need to adjust the top margin with the math provided in the css.</p>
+												
+<ol>
+<li>Grab your vector logo and export as svg with the settings in this <a href="../demo/svg-save-for-web-settings.png">screen shot of settings</a>
+<ul>
+<li>SVG 1.1</li>
+<li>Link images (not embed)</li>
+<li>No more than 2 Decimals</li>
+<li>Presentation Attributes (a choice in Save for Web & Devices in Illustrator)</li>
+</ul>
+</li>
+
+<li>Open the .svg in your code editor (NOT word or anything that will mess up the file).</li>
+
+<li>Remove the fixed size in the code <a href="../demo/remove-size.png">SCREEN SHOT</a></li> 
+
+<li>Add preserve aspect ratio at the end (watch out to keep the greater than) the code <a href="../demo/add-preserve-aspect-ratio.png">SCREEN SHOT</a>
+
+<pre class="htmlcode">
+preserveAspectRatio=&quot;xMidYMid meet&quot;
+</pre>
+
+</li> 
+
+<li>Create a png, transparent background logo for the fallback</li>
+
+<li>Save the logos in the assets/images/ directory and update the html in the header to reflect the file name changes (if you didn't name the files logo.svg and logo.png).
+
+<li>Adjust the #logo css in the style.css if your logo is of a different width and height (the logo in this theme is 255px X 55px)
+
+<pre class="htmlcode">
+#logo,
+.logo-svg {
+    height: 55px;
+    width: 205px; 
+}
+</pre>
+
+<p>The mobile adjustments are not necessary.</p>
+
+</ol>
+												
+<pre class="htmlcode">
+		
+&lt;---- coming soon page logo html ----&gt;
+&lt;div id=&quot;logo&quot;&gt;
+&lt;object class=&quot;logo-svg&quot; data=&quot;assets/images/logo.svg&quot; type=&quot;image/svg+xml&quot;&gt;
+&lt;/object&gt;
+&lt;img src=&quot;assets/images/logo.png&quot; alt=&quot;Your Site Info&quot;/&gt;&lt;!--.no-svg fallback--&gt;
+&lt;/div&gt;
+
+
+&lt;---- main logo for site html ----&gt;
+&lt;div id=&quot;logo&quot;&gt;
+&lt;a href=&quot;index.html&quot;&gt;&lt;/a&gt;
+&lt;object class=&quot;logo-svg&quot; data=&quot;assets/images/logo.svg&quot; type=&quot;image/svg+xml&quot;&gt;
+&lt;/object&gt;
+&lt;img src=&quot;assets/images/logo.png&quot; alt=&quot;Your Site Info&quot;/&gt;&lt;!--.no-svg fallback--&gt;
+&lt;/div&gt;
+
+</pre>																
+														</div>
+												<!--close .st-content--> 
+												
+										</li>
+												<!--close list LOGO-->
+
+<li class="st-content-wrapper"> <a class="trigger" href="#"><h4>Container/Scaffolding <i class="e-icon-up-open-big"></i></h4></a>
+<div class="st-content">
+
+<p>Bootstrap uses the class .container as the max-width that the content will not exceed. In this theme, the max-width is 1200px with some padding in percentages (it's in the top of the style.css file). 
+To make it fluid and have zero horizontal bars, the .container class over-rides all .container classes in all media queries in the core bootstrap css.</p>
+
+<p>When setting up a page, think about what you want to be no more than 1200px wide and fluid and what you want to have a 100% as wide as the device/screen. For example the .strip class used on the home page is 100% width of the device so that is used OUTSIDE the .container.</p>
+
+<p>On the <a href="hero-unit.html"> hero-unit</a> page, the .hero-unit is inside a .strip and inside that strip is a .container. This is a common set up where the color or shading goes past the max-width. </p>
+
+<h2>.container</h2>
+
+<p>IF your entire page is contained within the max-width, AFTER the page-header, you'd write:</p>
+
+<pre class="htmlcode">
+&lt;div class=&quot;container main-content&quot;&gt;
+
+Content goes here of the entire body of page IF the entire body of the page does not exceed the max width set on the .container class.
+
+&lt;/div&gt;&lt;!--close .container.main-content--&gt;
+
+</pre>
+
+<p>If only parts of your page are to be contained in the max-width, then you'd write something like this (after the page-header):</p>
+
+<pre class="htmlcode">
+
+&lt;div class=&quot;main-content&quot;&gt;
+
+&lt;div class=&quot;strip&quot;&gt; 
+&lt;div class=&quot;container&quot;&gt;
+Content that is not to exceed the max width but inside a 100% div or section (like the .strip used on the home page).
+&lt;/div&gt;&lt;!--close .container--&gt;
+&lt;/div&gt;&lt;!--close .strip--&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+Content that does not exceed the max width
+&lt;/div&gt;&lt;!--close .container--&gt;
+
+&lt;/div&gt;&lt;!--close .main-content--&gt;
+
+</pre>
+
+<h2>.span12</h2>
+
+<p>.span12 is not necessary to use. Any content inside a .container doesn't exceed the max width set on the .container class.</p>
+
+
+<h2>Nested Rows</h2>
+
+<p>This theme is fluid, so the only class used outside .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, and span11 is "row-fluid", you can put row-fluids inside row-fluids and create nested columns. The ONLY contents just inside a .row-fluid This is not a change from the standard bootstrap scaffolding, which you should learn more in detail at <a href="http://twitter.github.com/bootstrap/scaffolding.html">Boostrap's</a> site.</p>
+
+<p>Remember span12 is not necessary and neither is row-fluid if you are using 100% of the width inside a .container. I often see themes with too many wrappers that do the same thing: wrapping content that needs only just one wrapper, usually .container. Since this theme is fluid, has no ugly scroll bars when AT any size, please look at my well comment code to follow along.</p>
+
+<p>For a good example of nested row-fluids, please check out the very well commented <a href="generic-layout-1.html">generic-layout-1</a> page.</p>
+
+</div>
+<!--close .st-content-->
+												
+</li>
+<!--close list container -->
+
+
+
+<li class="st-content-wrapper"> <a class="trigger" href="#"><h4>Rotating BG Image<i class="e-icon-up-open-big"></i></h4></a>
+<div class="st-content">
+
+<p>In the assets/js/custom.js you'll see that the images are named 1-7.jpg and they are located in the assets/images/background folder. Replace the images, add some, or delete some. There is NO comma after the last image in the array. <strong>The PSD file with the mask is provided.</strong></p>
+
+<p>All images used on this site, unless otherwise noted, are public domain.</p>
+
+
+<pre class="js">
+/*================================================================*/
+/* ROTATING BACKGROUND IMAGES works alone
+/*================================================================*/
+$(document).ready(function () {
+
+$('#page').prepend('&lt;span class=&quot;bg&quot;&gt;&lt;/span&gt;');
+
+	var images = [
+	'1.jpg',
+	'2.jpg', 
+	'3.jpg', 
+	'4.jpg',
+	'5.jpg',
+	'6.jpg',
+	'7.jpg'
+	];
+
+	$('.bg').css({
+		'background-image': 'url(assets/images/background/' + images[Math.floor(Math.random() * images.length)] + ')'
+	});
+});
+</pre>
+
+																
+</div>
+<!--close .st-content-->
+												
+</li>
+<!--close list Backgroud Images-->
+												
+
+<li class="st-content-wrapper"> <a class="trigger" href="#"><h4>Colors & Fonts <i class="e-icon-up-open-big"></i></h4></a>
+<div class="st-content">
+
+<h2>Colors</h2>
+
+<p>There are many ways to add the colors, this is one way.</p>
+
+<p>The theme does not include the style switcher, but feel free to grab the code off the demo if you want it. Even if you are a theme developer, you can use it. </p>
+
+<p>Blue is the base, so there's no need to add anything to your head html. If you choose another color, then place the css call after all other style sheets in your head.</p>
+
+<pre class="htmlcode">
+&lt;link href=&quot;assets/css/softgreen.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
+&lt;link href=&quot;assets/css/gray.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
+&lt;link href=&quot;assets/css/softrustbrown.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
+&lt;link href=&quot;assets/css/mutedteal.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
+</pre>
+		
+<h2>Fonts</h2>
+
+<p>The fonts in the switcher are as follows. You can swap out the font call in the style.css (by editing the css) and also load the appropriate css for google fonts in your head. 
+The way I set up my css is for a theme, obviously it's to be modified, combined, and compressed when you develop the final site.</p>
+					
+<pre class="styles">
+In the head of your html:
+&lt;link href=&quot;http://fonts.googleapis.com/css?family=Playfair+Display&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
+
+/* ----------------------- CSS for PlayFair Display &amp; Garamondish font stack ------------------------------ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display";
+    font-weight: normal;
+}
+body, input, textarea, form, .btn   {
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+</pre>		
+		
+		
+<pre class="styles">
+In the head of your html:
+&lt;link href=&quot;http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
+
+/* ----------------------- CSS for Roboto &amp; Helvetica, Arial font stack ------------------------------ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn {
+    font-family: "Roboto";
+    font-weight: 300;
+}
+body, input, textarea, form, .btn   {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* font too thin on mobile, make it thicker */
+@media only screen and (max-width: 767px) { 
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	body.font2 .btn {
+ 	   font-weight: 400;
+	}
+
+}
+
+</pre>				
+
+
+<pre class="styles">
+In the head of your html:
+&lt;link href=&quot;http://fonts.googleapis.com/css?family=Oxygen:300,400&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
+
+/* ----------------------- CSS for Oxygen &amp; Helvetica, Arial font stack ------------------------------ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn {
+    font-family: "Oxygen";
+    font-weight: 300;
+}
+body, input, textarea, form, .btn   {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* font too thin on mobile, make it thicker */
+@media only screen and (max-width: 767px) { 
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	body.font2 .btn {
+ 	   font-weight: 400;
+	}
+
+}
+
+</pre>	
+
+
+<pre class="styles">
+In the head of your html:
+&lt;link href=&quot;http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,600,400italic,300italic,700italic,600italic,900italic,900&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
+&lt;link href=&quot;http://fonts.googleapis.com/css?family=Arvo:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
+
+/* ----------------------- CSS for Arvo &amp; Source Sans Pro ------------------------------ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Arvo";
+    font-weight: normal;
+}
+body, input, textarea, button, form { 
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif 
+}
+
+</pre>	
+
+			
+
+
+</div>
+<!--close .st-content-->
+												
+</li>
+<!--close list Backgroud Images-->
+
+												<li class="st-content-wrapper"> <a class="trigger" href="#"><h4>Page Columns <i class="e-icon-up-open-big"></i></h4></a>
+												<div class="st-content">
+																<p>Pages can come in various column setups. These are the columns of the entire body of the page. I've built upon the Bootstrap columns but have done a little css so that the mark up stays the same and the order of content is SEMANTICAL. To elaborate: Bootstrap has rows and columns and if you want a fat column and a skinny column, say a primary and secondary column you'd create a row (row-fluid) and inside that the containers with classes .span9 and .span3 for a right sided side bar. That's easy enough and the primary content is first in the mark up, but if you wanted that side bar visually on the left, and the content visually on the right, you'd have to change the markup, and that changes the way it appears in mobile, with the least important content on top. The way I've set it up is to add a class, such as "sidebar-left" or "sidebar-right" to the "row-fluid" outer wrapper and classes "primary-column" to the .span9 and "secondary-column" to the .span3 respectively. So if you want the sidebar on the right or left, you just add the appropriate class to the parent row-fluid wrapper. The same thing goes for three columns, so you can have three columns like so: primary, secondary, tertiary, but have them appear as that or secondary, primary, tertiary (holy grail). Okeydokie.</p>
+
+
+<h4>Sidebar on Left</h4>
+<pre class="htmlcode">
+&lt;div class=&quot;row-fluid sidebar-left&quot;&gt;&lt;!--note the &quot;sidebar-left&quot; class--&gt;
+	&lt;!--begin row-fluid sidebar-left--&gt;
+		&lt;div class=&quot;span9 primary-column&quot;&gt;
+		&lt;!--begin div containing the primary content --&gt;
+Primary main content
+		&lt;/div&gt;
+		&lt;!--close div span9 primary-column--&gt;
+		&lt;section class=&quot;span3 sidebar secondary-column&quot;&gt;
+Secondary sidebar content (widgets)
+		&lt;/section&gt;
+		&lt;!--close section secondary-column sidebar span3--&gt;
+	&lt;/div&gt;
+&lt;!--close row-fluid--&gt;
+</pre>
+<!--close pre-->
+
+<h4>Sidebar on Right</h4>
+<pre class="htmlcode">
+&lt;div class=&quot;row-fluid sidebar-right&quot;&gt;&lt;!--note the &quot;sidebar-right&quot; class--&gt;
+	&lt;!--begin row-fluid sidebar-right--&gt;
+		&lt;div class=&quot;span9 primary-column&quot;&gt;
+		&lt;!--begin div containing the primary content --&gt;
+Primary main content
+		&lt;/div&gt;
+		&lt;!--close div span9 primary-column--&gt;
+		&lt;section class=&quot;span3 sidebar secondary-column&quot; id=&quot;secondary-nav&quot;&gt;
+Secondary sidebar content (widgets)
+		&lt;/section&gt;
+		&lt;!--close section secondary-column sidebar span3--&gt;
+	&lt;/div&gt;
+	&lt;!--close row-fluid--&gt;
+</pre>
+<!--close pre-->
+
+
+<h4>Three Contemporary Columns</h4>
+<pre class="htmlcode">
+&lt;div class=&quot;row-fluid contemporary-three-columns&quot;&gt;&lt;!--note the &quot;contemporary-three-columns&quot; class--&gt;
+	&lt;!--begin row-fluid contemp-three-cols--&gt;
+		&lt;div class=&quot;span6 primary-column&quot;&gt;
+		&lt;!--begin div containing the primary content --&gt;
+Primary main content
+		&lt;/div&gt;
+		&lt;!--close div span6 primary-column--&gt;
+		&lt;section class=&quot;span3 sidebar secondary-column&quot; id=&quot;secondary-nav&quot;&gt;
+Secondary sidebar content (widgets)
+		&lt;/section&gt;
+		&lt;!--close section secondary-column sidebar span3--&gt;
+		&lt;section class=&quot;span3 sidebar tertiary-column&quot; id=&quot;tertiary-nav&quot;&gt;
+Tertiary sidebar content (widgets)
+		&lt;/section&gt;
+		&lt;!--close section tertiary-column sidebar span3--&gt;
+	&lt;/div&gt;
+	&lt;!--close row-fluid--&gt;
+</pre>
+<!--close pre-->
+
+
+
+<h4>Holy Grail Three Columns</h4>
+<pre class="htmlcode">
+&lt;div class=&quot;row-fluid holy-grail&quot;&gt;&lt;!--note the &quot;holy-grail&quot; class nothing else changes--&gt;
+	&lt;!--begin row-fluid contemp-three-cols--&gt;
+		&lt;div class=&quot;span6 primary-column&quot;&gt;
+		&lt;!--begin div containing the primary content --&gt;
+Primary main content
+		&lt;/div&gt;
+		&lt;!--close div span6 primary-column--&gt;
+		&lt;section class=&quot;span3 sidebar secondary-column&quot; id=&quot;secondary-nav&quot;&gt;
+Secondary sidebar content (widgets)
+		&lt;/section&gt;
+		&lt;!--close section secondary-column sidebar span3--&gt;
+		&lt;section class=&quot;span3 sidebar tertiary-column&quot; id=&quot;tertiary-nav&quot;&gt;
+Tertiary sidebar content (widgets)
+		&lt;/section&gt;
+		&lt;!--close section tertiary-column sidebar span3--&gt;
+	&lt;/div&gt;
+	&lt;!--close row-fluid--&gt;
+</pre>
+																<!--close pre-->
+														</div>
+												<!--close .st-content--> 
+										</li>
+												<!--close list item for page columns-->
+																																		
+												<li class="st-content-wrapper"> <a class="trigger" href="#"><h4>Open Graph <i class="e-icon-up-open-big"></i></h4></a>
+												<div class="st-content">
+																<h3>Open Graph Data</h3>
+																<p>In whatever CMS you use, the content for the Open Graph is dynamically generated, for the most part. However, you do need the fbadmins content where the XXXXX goes in the code example below. To get the fbadmins number, go to http://graph.facebook.com/[UserName]. Replace [UserName] with your username or your client's username and hit return.</p>
+<pre class="htmlcode">
+&lt;!-- Open Graph for facebook
+http://graph.facebook.com/[UserName] replace [UserName] 
+with yours and get your fb:admis content information where the XXXX goes.
+================================================== --&gt;
+&lt;meta property=&quot;og:title&quot; content=&quot;&quot; /&gt;
+&lt;meta property=&quot;og:type&quot; content=&quot;&quot; /&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;&quot; /&gt;
+&lt;meta property=&quot;og:image&quot; content=&quot;&quot;/&gt;
+&lt;meta property=&quot;og:site_name&quot; content=&quot;&quot; /&gt;
+&lt;meta property=&quot;fb:admins&quot; content=&quot;XXXXX&quot; /&gt;
+&lt;meta property=&quot;og:locale&quot; content=&quot;en_us&quot; /&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;  &quot; /&gt;
+</pre>
+																<!--close pre-->
+														</div>
+												<!--close .st-content--> 
+										</li>
+												<!--close list item open graph-->
+												
+												<li class="st-content-wrapper"> <a class="trigger" href="#"><h4>FancyBox License<i class="e-icon-up-open-big"></i></h4></a>
+												<div class="st-content">
+																<p>Since this theme supports legacy browsers (up to a point), the choices for a responsive lightbox came to one, though more may be coming out as I write this. This was after a lot of testing of others. The choice is: fancyBox 2. This is the lightbox script that presents images, inline content, ajax, videos, and iframes in a "pop up" div. You can see examples throughout this site and below.</p>
+																<div class="important">
+																<p>I have <a href="../demo/fancybox-ss.png" class="fancyme">permission</a> to use my copy of fancyBox 2 in this theme.</p>
+																<p>This theme contains "fancyBox" by <a href="http://fancyapps.com/fancybox/">fancyApps</a> .
+																				Please note, that fancyBox is licensed under the terms of the <a href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0 License</a> . If you would like to use fancyBox for commercial purposes, you can purchase a license from <a href="http://fancyapps.com/store/">http://fancyapps.com/store/</a> </p>
+														</div>
+																<p> <a class="btn btn-warning btn-large" href="http://sites.fastspring.com/fancyapps/product/store" target="_blank">Order fancyBox today!</a> </p>
+																<p>I chose fancyBox 2 because it's responsive, it works on ie7+ and the latest browsers, it works on Android, IOS devices (iPad/iPhone), and it works in Opera Mobile. Plus, it handles more than just images. Other scripts are wonky on mobile or they are not ie7 friendly, or they have no license for theme development or one thing or another. FancyBox 2 is also the least expensive option as far as compatible scripts go, if you look at the features. The purchase price is $19.00 per commercial site, there's also a developer license.</p>
+																<h4>How to Use FancyBox with this Bootstrap Theme</h4>
+																<p><strong>A single image:</strong></p>
+																<p> <a class="fancysingle" href="../demo/1-lrg.jpg" title="Image Title"><img src="../demo/1-sm.jpg" alt=""></a> </p>
+																<p>Add class "fancysingle" to the a tag, if you want a title, add the title to the tag as seen in the example above.</p>
+																<pre class="htmlcode">
+&lt;p&gt;&lt;a class=&quot;fancysingle&quot; href=&quot;../demo/1-lrg.jpg&quot; title=&quot;Image Title&quot;&gt;&lt;img src=&quot;../demo/1-sm.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</pre>
+																<!--close pre-->
+																<p><strong>Group of images with thumbnails and helper buttons:</strong></p>
+																<ul class="demo-gallery clearfix">
+																<li> <a class="fancyme" data-fancybox-group="whatever" href="../demo/1-lrg.jpg" title="Image Title 1"><img src="../demo/1-sm.jpg" alt=""></a> </li>
+																<li> <a class="fancyme" data-fancybox-group="whatever" href="../demo/2-lrg.jpg" title="Image Title 2"><img src="../demo/2-sm.jpg" alt=""></a> </li>
+																<li> <a class="fancyme" data-fancybox-group="whatever" href="../demo/3-lrg.jpg" title="Image Title 3"><img src="../demo/3-sm.jpg" alt=""></a> </li>
+														</ul>
+																<p>Add class "fancyme" to the a tag and create a data-fancybox-group of the same name for all images.</p>
+																<pre class="htmlcode">
+&lt;ul class=&quot;demo-gallery clearfix&quot;&gt;
+		&lt;li&gt;
+			&lt;a class=&quot;fancyme&quot; data-fancybox-group=&quot;whatever&quot; href=&quot;../demo/1-lrg.jpg&quot; title=&quot;Image Title 1&quot;&gt;&lt;img src=&quot;../demo/1-sm.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;a class=&quot;fancyme&quot; data-fancybox-group=&quot;whatever&quot; href=&quot;../demo/2-lrg.jpg&quot; title=&quot;Image Title 2&quot;&gt;&lt;img src=&quot;../demo/2-sm.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;a class=&quot;fancyme&quot; data-fancybox-group=&quot;whatever&quot; href=&quot;../demo/3-lrg.jpg&quot; title=&quot;Image Title 3&quot;&gt;&lt;img src=&quot;../demo/3-sm.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+		&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+
+
+																<h4>In this theme, I've combined all the fancybox scripts in one and compressed, the uncompressed version is also included. Calling all the functions available in these is done by putting the following in your footer before the closing body tag:</h4>
+																<pre class="htmlcode">
+&lt;script src='assets/js/fancybox/source/custom-fancybox-combined.js' defer>&gt;&lt;/script&gt;&lt;!--all fancy box buttons, media, helpers, thumbs AND loading--&gt;
+</pre>
+																<!--close pre-->
+
+	
+																<!--close pre-->
+																<h4>****If you were NOT using this theme, the script loading in the footer before the closing body tag would be:</h4>
+<pre class="htmlcode">
+&lt;script src=&quot;assets/js/fancybox/source/jquery.fancybox.pack.js&quot;&gt;&lt;/script&gt;&lt;!--main fancybox--&gt;
+&lt;script src=&quot;assets/js/fancybox/source/helpers/jquery.fancybox-media.js&quot;&gt;&lt;/script&gt;&lt;!--fancybox media--&gt;
+&lt;script src=&quot;assets/js/fancybox/source/helpers/jquery.fancybox-buttons.js&quot;&gt;&lt;/script&gt;&lt;!--fancybox buttons--&gt;
+&lt;script src=&quot;assets/js/fancybox/source/helpers/jquery.fancybox-thumbs.js&quot;&gt;&lt;/script&gt;&lt;!--fancybox thumbs--&gt;
+&lt;script src=&quot;assets/js/fancybox_init.js&quot;&gt;&lt;/script&gt;&lt;!--fancybox load--&gt;
+</pre>
+																<!--close pre-->
+																<p> <a class="fancybox-media fancybox.iframe" href="http://www.youtube.com/embed/6gWv6tyWFgQ?autoplay=1">Iframe with YouTube Video</a> </p>
+																<pre class="htmlcode">
+&lt;a class=&quot;fancybox-media fancybox.iframe&quot; href=&quot;http://www.youtube.com/embed/6gWv6tyWFgQ?autoplay=1&quot;&gt;Iframe with YouTube Video&lt;/a&gt;
+</pre>
+																<!--close pre-->
+																<p>Add classes "fancybox-media fancybox.iframe" on the a tag for youtube or vimeo.</p>
+																<p> <a href="http://player.vimeo.com/video/27243869?color=ffffff" class="fancybox-media fancybox.iframe">Iframe with Vimeo Video</a> </p>
+																<pre class="htmlcode">
+&lt;a href=&quot;http://player.vimeo.com/video/27243869?color=ffffff&quot; class=&quot;fancybox-media fancybox.iframe&quot;&gt;Iframe with Vimeo Video&lt;/a&gt;
+</pre>
+																<!--close pre-->
+																<p> <a class="various fancybox.iframe" title="Map and Directions" href="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=&amp;daddr=1600+Pennsylvania+Ave+NW,+White+House,+Washington,+DC+20500&amp;hl=en&amp;geocode=Ca3jx5Eq6BcjFQ6IUQIdG4Ro-ynPaZnjvLe3iTGGOSyaFzTP2g&amp;sll=38.897678,-77.036517&amp;sspn=0.009644,0.01443&amp;g=1600+Pennsylvania+Avenue+Northwest,+Washington,+DC&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=38.89768,-77.036519&amp;spn=0.008016,0.013733&amp;z=16&amp;output=embed">Google Map Iframe</a> </p>
+																<pre class="htmlcode">
+&lt;a class=&quot;various fancybox.iframe&quot; title=&quot;Map and Directions&quot; href=&quot;https://maps.google.com/maps?f=d&amp;amp;source=s_d&amp;amp;saddr=&amp;amp;daddr=1600+Pennsylvania+Ave+NW,+White+House,+Washington,+DC+20500&amp;amp;hl=en&amp;amp;geocode=Ca3jx5Eq6BcjFQ6IUQIdG4Ro-ynPaZnjvLe3iTGGOSyaFzTP2g&amp;amp;sll=38.897678,-77.036517&amp;amp;sspn=0.009644,0.01443&amp;amp;g=1600+Pennsylvania+Avenue+Northwest,+Washington,+DC&amp;amp;mra=ls&amp;amp;ie=UTF8&amp;amp;t=m&amp;amp;ll=38.89768,-77.036519&amp;amp;spn=0.008016,0.013733&amp;amp;z=16&amp;amp;output=embed&quot;&gt;Google Map Iframe&lt;/a&gt;
+</pre>
+																<!--close pre-->
+																<p>Add classes "various fancybox.iframe" on the a tag for google maps or other iframe types that are not videos.</p>
+																<p> <a class="various fancybox.ajax" href="../demo/demo-ajax.html">Ajax Content</a> </p>
+																<pre class="htmlcode">
+&lt;a class=&quot;various fancybox.ajax&quot; href=&quot;../demo/demo-ajax.html&quot;&gt;Ajax Content&lt;/a&gt;&lt;/p&gt;
+</pre>
+																<!--close pre-->
+																<p>Add classes "various fancybox.ajax" on ajax content (this is html content located on the same server).</p>
+																<p>Inline Content</p>
+																<p> <a class="various" href="#inline">Inline Hidden Content on the same page or an include</a> </p>
+																<pre class="htmlcode">
+&lt;a class=&quot;various&quot; href=&quot;#inline&quot;&gt;Inline Hidden Content on the same page or an include&lt;/a&gt;
+</pre>
+																<!--close pre-->
+																<div id="inline" style="display:none;padding:30px;">
+																This is inline content that's hidden in a display:none div on this page (actually it's located right below the instructions regarding this).
+														</div>
+														</div>
+												<!--close .st-content--> 
+										</li>
+												<!--close list item for fancybox-->
+																										
+<li class="st-content-wrapper"> <a class="trigger" href="#"><h4>Twitter Feed?<i class="e-icon-up-open-big"></i></h4></a>
+<div class="st-content">
+
+<p>There is no twitter feed in this theme. You'll also notice that this is not a feature of many themes, but I really liked it. Twitter changed its API and now requires authentication. You will need to create an app with Twitter.</p>
+
+<p>All themes, mine or otherwise, with Twitter feeds will no longer work when they retire the API 1.0 and start using 1.1. This is not merely a change in the url, it requires OAuth.</p>
+
+<h2>Options with instructions</h2>
+
+<p><a href="https://github.com/StanScates/Tweet.js-Mod">Sea of Clouds Modified with php to create a twitter feed, you can combine this with flexslider and make a sliding twitter feed</a></p>
+<p>Requires creating an app, php, getting secret keys, and so forth. Read the instructions and create an app account with twitter. It's a big production.</p>
+
+<p><a href="https://dev.twitter.com/docs/embedded-timelines">Embedded timelines which you have to create with your own twitter account and domain for authentication</a></p>
+
+<p><a href="https://dev.twitter.com/blog/planning-for-api-v1-retirement">API v1 retirement</a></p>
+
+<p>You can follow sea of clouds issue 264 and find out more about the twitter api and the lack of client side solutions once they shut down the old api: https://github.com/seaofclouds/tweet/issues/264</p>
+
+
+
+</div>
+<!--close .st-content-->
+												
+</li>
+<!--close list sliding tweets-->
+												
+										</ul>
+						</div>
+								<!-- slide to top close-->
+						</div>
+				<!--close .container .main-content--> 
+			
+		 
+<!--begin footer -->
+<footer class="footer clearfix">
+		<div class="container">
+				<!--footer container-->
+				<div class="row-fluid">
+						<div class="span3">
+								<section>
+										<h4>Contact Us</h4>
+										<p>Corporate-Elegance Creative<br>
+												1255 Nowhere Street<br>
+												Tampa, FL 33655<br>
+												<strong>phone:</strong> <a href="tel:8135551234" class="tele">813.555.1234</a><br>
+												<strong>fax:</strong> 813.555.1235<br>
+												<span class="overflow"><strong>email:</strong> <a href="mailto:email@domain.com">email@companydomain.com</a></span> </p>
+								</section>
+								<!--close section-->
+								
+								<section>
+										<h4>Follow Us</h4>
+										<ul class="social">
+												<li><a class="fc-webicon rss round" href="#" title="RSS"></a></li>
+												<li><a class="fc-webicon facebook round" href="#" title="Facebook"></a></li>
+												<li><a class="fc-webicon twitter round" href="#" title="Twitter"></a></li>
+												<li><a class="fc-webicon skype round" href="#" title="Skype"></a></li>
+												<li><a class="fc-webicon dribbble round" href="#" title="dribble"></a></li>
+												<li><a class="fc-webicon linkedin round" href="#" title="Skype"></a></li>
+										</ul>
+								</section>
+								<!--close section-->
+						</div>
+						<!-- close .span3 --> 
+						
+						<!--section containing newsletter signup and recent images-->
+						<div class="span5">
+								<section>
+										<h4>Stay Updated</h4>
+										<p>Sign up for our newsletter. We won't share your email address.</p>
+												<form action="yourscript.php" method="post">
+										<div class="input-append append-fix custom-append row-fluid">
+											<input type="email" class="span8" placeholder="Email Address" name="email" />
+														<button class="btn btn-primary">Sign Up</button>
+
+										</div></form>
+										<!--close input-append--> 
+								</section>
+								<!--close section-->
+								
+								<section>
+										<h4>Recent Images</h4>
+										<ul class="image-widget clearfix">
+												<li><a href="#"><img src="../demo/image-widget/1.png" alt="" /></a></li>
+												<li><a href="#"><img src="../demo/image-widget/2.png" alt="" /></a></li>
+												<li><a href="#"><img src="../demo/image-widget/3.png" alt="" /></a></li>
+												<li><a href="#"><img src="../demo/image-widget/4.png" alt="" /></a></li>
+												<li><a href="#"><img src="../demo/image-widget/5.png" alt="" /></a></li>
+												<li><a href="#"><img src="../demo/image-widget/6.png" alt="" /></a></li>
+												<li><a href="#"><img src="../demo/image-widget/7.png" alt="" /></a></li>
+												<li><a href="#"><img src="../demo/image-widget/8.png" alt="" /></a></li>
+												<li><a href="#"><img src="../demo/image-widget/9.png" alt="" /></a></li>
+												<li><a href="#"><img src="../demo/image-widget/10.png" alt="" /></a></li>
+												<li><a href="#"><img src="../demo/image-widget/11.png" alt="" /></a></li>
+												<li><a href="#"><img src="../demo/image-widget/12.png" alt="" /></a></li>
+										</ul>
+								</section>
+								<!--close section-->
+						</div>
+						<!-- close .span5 --> 
+						
+						<!--section containing blog posts-->
+						<div class="span4">
+								<section>
+										<h4>About Us</h4>
+										<p>Immortal robot bodies are the new rage. Religion can’t provide immortal robot bodies. Flying heads in bubbles are also popular. The cost of preserving a head is much less than the entire body and at least you can keep your face. But with the immortal robot, after you die, your soul or spirit is digitized and your flesh body rots, but you don’t care, ‘cause having an immortal robot body is ultra cool and sexy. While you’re still on earth, your immortal robot body sits in storage ready for the fateful day. You betcha, it does provide peace of mind or piece of mind. <span class="small">© Christina Arasmo Beymer (me).</span></p>
+								</section>
+						</div>
+						<!-- close .span4 -->
+				</div>
+				<!-- close .row-fluid-->
+		</div>
+		<!-- close footer .container--> 
+</footer>
+<!--/close footer--> 
+
+<!--change this to your stuff-->
+<section class="footer-credits">
+		<div class="container">
+				<ul class="clearfix">
+						<li>© 2013 Your Company Name. All rights reserved.</li>
+						<li><a href="#">Link</a></li>
+						<li><a href="#">Link</a></li>
+				</ul>
+		</div>
+		<!--close footer-credits container--> 
+</section>
+<!--close section .footer-credits--> 
+ <span class="backToTop"><a href="#top"><i class="e-icon-up-open-big"></i></a></span>
+</div>
+<!-- close #page--> 
+
+
+<!--*****************Theme switcher html - requires switcher.css *********************-->
+<div id="switcher-wrapper">
+		<div class="toggle">
+				<i class="e-icon-plus"></i>
+		</div>
+		<div id="switcher">
+				<h3>Choose A Color</h3>
+<p class="small">There is a flash of the blue color while a page loads, this ONLY happens in the demo due to the script that switches the colors or fonts</p>
+
+				<section class="clearfix"> 
+				<a class="color corblue" href="javascript: void(0)" title="Corporate Blue">Corporate Blue</a> 
+				<a class="color gray" href="javascript: void(0)" title="Gray">Gray</a>
+				<a class="color softgreen" href="javascript: void(0)" title="Soft Green">Soft Green</a>
+				<a class="color srbrown" href="javascript: void(0)" title="Soft Rust Brown">Soft Rust Brown</a>
+				<a class="color mteal" href="javascript: void(0)" title="Muted Teal">Muted Teal</a>
+				</section>
+				
+				<h6><a class="reset btn btn-inverse" href="javascript: void(0)" title="Reset">Color Reset</a></h6>
+				<h3>Font Ideas</h3>
+				<p class="small"><i class="e-icon-info"></i> Font choices affect the masonry layouts ONLY in this demo. In a real environment, the masonry stacks fine.
+				<p>
+				<ul>
+						<li><a class="font0" href="javascript: void(0)">Source Sans Pro</a></li>
+						<li><a class="font1" href="javascript: void(0)">Play Fair & Garamondish fontstack</a></li>
+						<li><a class="font2" href="javascript: void(0)">Roboto & Helvetica, Arial, etc.</a></li>
+						<li><a class="font3" href="javascript: void(0)">Arvo & Source Sans Pro</a></li>
+						<li><a class="font4" href="javascript: void(0)">Oxygen & Helvetica, Arial, etc.</a></li>
+				</ul>
+				<h6><a class="resetfont btn btn-primary" href="javascript: void(0)" title="Reset">Font Reset</a></h6>
+		</div>
+</div>
+<!--*****************Theme switcher html *********************--> 
+
+		<!-- JS General Site COMBINE AND COMPRESS WHEN YOU FIGURE OUT WHAT YOU WANT TO USE comes with unpacked versions ================ --> 
+		<script src='assets/js/theme-menu.js'></script><!-- menu --> 
+		<script src='assets/js/jquery.easing-1.3.min.js'></script><!-- easing --> 
+		<script src='assets/js/bootstrap.min.js'></script><!-- bootstrap / custom.js loads --> 
+		<script src='assets/js/jquery.easytabs.min.js'></script><!-- tabs/testimonials custom.js / loads --> 
+		<script src='assets/js/slide-to-top-accordion.min.js'></script><!-- slide to top accordion toggle / custom.js loads --> 
+		<script src='assets/js/bootstrap-progressbar.min.js'></script><!-- progress bar loading in page --> 
+
+		<!-- Fancy Box and Isotope ================ --> 
+		<script src='assets/js/jquery.isotope.min.js'></script><!--filter masonry script AND loading--> 
+		<script src='assets/js/fancybox/source/custom-fancybox-combined.js' defer></script><!--all fancy box buttons, media, helpers, thumbs AND loading--> 
+
+		<!-- Sliders ================ --> 
+		<script src='assets/js/jquery.flexslider.min.js'></script><!--flexslider (twitter, blog, portfolio, full width) AND loading --> 
+		<script src='assets/js/lemmon-slider.min.js'></script><!-- variable width image slider AND loading --> 
+
+		<!--initialize scripts / custom scripts--> 
+		<script src='assets/js/custom.js'></script> 
+		
+		<script>
+$(document).ready(function(){
+
+$("pre.htmlcode").snippet("html",{style:"kwrite"});
+$("pre.styles").snippet("css",{style:"kwrite"});
+$("pre.js").snippet("javascript",{style:"kwrite"});
+
+});
+
+</script>
+</body>
+</html>
